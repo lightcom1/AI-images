@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState('');
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
-  const api = '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';
+  const api = import.meta.env.VITE_API_KEY;
 
   const handleChange = (e) => {
     setSearch(e.target.value);
