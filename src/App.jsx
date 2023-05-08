@@ -14,8 +14,8 @@ function App() {
 
   const getImages = async () => {
     try {
-      setIsLoading(true);
-      setSearch('');
+      // setIsLoading(true);
+      // setSearch('');
       setImages([]);
 
       const options = {
